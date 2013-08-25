@@ -28,7 +28,7 @@
 -- >>> features d1
 -- [NType Common,Gender Masculine,Number Singular,Case Genitive]
 -- >>> let d2 = unset NType d1
--- >>> toString s2
+-- >>> toString d2
 -- "N-msg"
 -- >>> d1 == d2
 -- False
