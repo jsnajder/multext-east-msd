@@ -14,4 +14,4 @@ Polish, Resian, Romanian, Russian, Serbian, Slovak, Slovene, and Ukrainian. For
 details, refer to the [MULTEXT-East Version 3](http://nl.ijs.si/ME/V3/) page.
 
 Library documentation is available on
-[Hackage](http://hackage.haskell.org/packages/archive/multext-east-msd/0.1.0.0/doc/html/Data-MultextEastMsd.html).
+[Hackage](http://hackage.haskell.org/packages/archive/multext-east-msd).
