@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                multext-east-msd
-version:             0.1.0.0
+version:             0.1.0.2
 synopsis:            MULTEXT-East morphosyntactic descriptors
 -- description:         
 homepage:            http://github.com/jsnajder/multex-east-msd
@@ -11,7 +11,7 @@ license-file:        LICENSE
 author:              Jan Snajder
 maintainer:          jan.snajder@fer.hr
 -- copyright:           
-category:            NLP
+category:            Natural Language Processing
 build-type:          Simple
 cabal-version:       >=1.8
 description:
@@ -22,7 +22,7 @@ description:
   by hyphens. MULTEXT-EAST Version 3 covers morphosyntactic descriptions for 
   Bulgarian, Croatian, Czech, English, Estonian, Hungarian, Lithuanian, 
   Macedonian, Persian, Polish, Resian, Romanian, Russian, Serbian, Slovak, 
-  Slovene, and Ukrainian. For details, refer to http://nl.ijs.si/ME/V3/
+  Slovene, and Ukrainian. For details, refer to <http://nl.ijs.si/ME/V3/>.
 
 library
   exposed-modules:     Data.MultextEastMsd
