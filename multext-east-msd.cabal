@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                multext-east-msd
-version:             0.1.0.3
+version:             0.1.0.4
 synopsis:            MULTEXT-East morphosyntactic descriptors
 -- description:         
 homepage:            http://github.com/jsnajder/multex-east-msd
