@@ -7,18 +7,19 @@
 -- Stability   :  experimental
 -- Portability :  portable
 --
--- Implementation of the MULTEXT-East Version 3 morphosyntactic descriptors.
+-- Implementation of the MULTEXT-East morphosyntactic descriptors.
 --
--- MULTEXT-East encodes values of morphosyntatic attributes in a single string, 
--- using positional encoding. Each attribute is represented by a single letter 
--- at a predefined position, while non-applicable attributes are represented 
--- by hyphens. For example, @Ncmsg@ denotes a common noun (@Nc@) in masculine
--- singular genitive (@msg@) case.
---
--- MULTEXT-EAST Version 3 covers morphosyntactic descriptions for 
--- Bulgarian, Croatian, Czech, English, Estonian, Hungarian, Lithuanian, 
--- Macedonian, Persian, Polish, Resian, Romanian, Russian, Serbian, Slovak, 
--- Slovene, and Ukrainian. For details, refer to <http://nl.ijs.si/ME/V3/>.
+-- MULTEXT-East encodes values of morphosyntatic attributes in a single string,
+-- using positional encoding. Each attribute is represented by a single letter
+-- at a predefined position, while non-applicable attributes are represented by
+-- hyphens. For example, @Ncmsg@ denotes a common noun (@Nc@) in masculine
+-- singular genitive (@msg@) case. For details, refer to <http://nl.ijs.si/ME>.
+-- 
+-- Currently, only MULTEXT-East Version 3 is supported. MULTEXT-East Version 3
+-- covers morphosyntactic descriptions for Bulgarian, Croatian, Czech, English,
+-- Estonian, Hungarian, Lithuanian, Macedonian, Persian, Polish, Resian,
+-- Romanian, Russian, Serbian, Slovak, Slovene, and Ukrainian. For details,
+-- refer to <http://nl.ijs.si/ME/V3/>.
 --
 -- Usage example:
 -- 
