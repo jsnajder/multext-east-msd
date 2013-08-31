@@ -7,7 +7,7 @@
 -- Stability   :  experimental
 -- Portability :  portable
 --
--- Implementation of the MULTEXT-East morphosyntactic descriptors.
+-- Implementation of the MULTEXT-East morphosyntactic descriptions.
 --
 -- MULTEXT-East encodes values of morphosyntatic attributes in a single string,
 -- using positional encoding. Each attribute is represented by a single letter
@@ -19,8 +19,10 @@
 -- covers morphosyntactic descriptions for Bulgarian, Croatian, Czech, English,
 -- Estonian, Hungarian, Lithuanian, Macedonian, Persian, Polish, Resian,
 -- Romanian, Russian, Serbian, Slovak, Slovene, and Ukrainian. For details,
--- refer to <http://nl.ijs.si/ME/V3/>.
+-- refer to <http://nl.ijs.si/ME/V3>.
 --
+-- The library enables the conversion of strings from/to MSD descriptors,
+-- setting and unsetting of MSD attribute values, and wildcard MSD matching.
 -- Usage example:
 -- 
 -- >>> let Just d1 = fromString "Ncmsg"
@@ -240,10 +242,10 @@ msd p fs = set fs $ Msd p []
 
 class MsdPattern a where
   -- | A wildcard-matching operator between two Msd patterns.
-  -- Relation @ msd1 =~= msd2 @ holds iff @msd1@ and @msd2@ are of the same
-  -- part-of-speech and the attributes common to @msd1@
-  -- and @msd2@ have identical values. The attributes of @msd1@ that are not
-  -- set in @msd2@ (and conversely) are ignored in the comparison.
+  -- Relation @ d1 =~= d2 @ holds iff @d1@ and @d2@ are of the same
+  -- part-of-speech and the attributes common to @d1@
+  -- and @d2@ have identical values. The attributes of @d1@ that are not
+  -- set in @d2@ (and conversely) are ignored in the comparison.
   -- In MULTEXT-East notation, this is tantamount to 
   -- having character code @-@ (hyphen) act as a wildcard.
   (=~=) :: a -> a -> Bool

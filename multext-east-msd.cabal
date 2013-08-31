@@ -5,7 +5,7 @@ name:                multext-east-msd
 version:             0.1.0.4
 synopsis:            MULTEXT-East morphosyntactic descriptors
 -- description:         
-homepage:            http://github.com/jsnajder/multex-east-msd
+homepage:            http://github.com/jsnajder/multext-east-msd
 license:             BSD3
 license-file:        LICENSE
 author:              Jan Snajder
@@ -15,7 +15,7 @@ category:            Natural Language Processing
 build-type:          Simple
 cabal-version:       >=1.8
 description:
-  Implementation of the MULTEXT-East morphosyntactic descriptors.
+  Implementation of the MULTEXT-East morphosyntactic descriptions.
   MULTEXT-East encodes values of morphosyntatic attributes in a single string, 
   using positional encoding. For details, refer to <http://nl.ijs.si/ME>.
 
