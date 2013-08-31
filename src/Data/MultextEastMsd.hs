@@ -21,8 +21,10 @@
 -- Romanian, Russian, Serbian, Slovak, Slovene, and Ukrainian. For details,
 -- refer to <http://nl.ijs.si/ME/V3>.
 --
--- The library enables the conversion of strings from/to MSD descriptors,
--- setting and unsetting of MSD attribute values, and wildcard MSD matching.
+-- The library enables the conversion of strings from/to morphosyntactic
+-- descriptors (MSDs), setting and unsetting of MSD attribute values, and
+-- wildcard MSD matching.
+-- 
 -- Usage example:
 -- 
 -- >>> let Just d1 = fromString "Ncmsg"
